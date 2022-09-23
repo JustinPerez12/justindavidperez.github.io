@@ -1,1 +1,62 @@
-"So if I change this and push something should happen to my website right? I cleared this thing" 
+<!--The Index.html page serves as the landing/ home page for the Applicant List Application site.-->
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TA Application</title>
+    <link rel="icon" type="image/x-icon" href="./Assets/TA-Icon.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+          crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Site.css" />
+</head>
+<body>
+    <header><!--This is where the python code enters the new Navbar--></header>
+    <div class="jumbotron">
+        <h1 class="display-2" style="text-align:center; color:white">Welcome to the TA Portal!</h1>
+    </div>
+    <img style="max-width:100%" class="center pad" src="./Assets/students-pic.jpg" alt="students-walking" />
+    <div class="jumbotron">
+        <h2 class="center" style="color:white">Congratulate this years top preforming TAs!</h2>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col center pad">
+                <img src="./Assets/travis.jpg" class="img-responsive" style="width:300px; height: 300px; object-fit:cover" />
+                <p id="p1">Jacques Webster II</p>
+                <p id="p2">Jacques is an excellent TA. He's so good, he could probably host a music festival and nothing bad would happen!</p>
+            </div>
+            <div class="col center pad">
+                <img src="./Assets/thugger.jpg" class="img-responsive" style="width:300px; height: 300px; object-fit:cover" />
+                <p id="p1">Jefferey Williams</p>
+                <p id="p2">
+                    Jefferey didn't do anything wrong in the last year. Everyone say good job Jefferey! Hopefully
+                    he isn't randomly incarcerated anytime soon.
+                </p>
+            </div>
+            <div class="col center pad">
+                <img src="./Assets/carti.jpg" class="img-responsive" style="width:300px; height: 300px; object-fit:cover" />
+                <p id="p1">Jordan Carter</p>
+                <p id="p2">Jordan is a great TA! I sure hope he doesn't drop a new album anytime soon.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="center pad">
+        <p id="p1">Becoming a TA can sharpen your technical skills and improve your teaching ability!</p>
+        <button id="button1">Become a TA today!</button>
+    </div>
+    <script>
+        fetch("./navbar_partial.html")
+            .then(response => {
+                return response.text()
+            })
+            .then(data => {
+                document.querySelector("header")
+                    .innerHTML = data;
+            });
+    </script>
+</body>
+</html>
