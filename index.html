@@ -1,4 +1,4 @@
-<!--The Index.html page serves as the landing/ home page for the Applicant List Application site.-->
+<!--The Index.html page serves as the landing/ home page for my personal website.-->
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -24,7 +24,7 @@
     <div class="container">
         <div class="row">
             <div class="col center pad">
-                <img src="./Assets/travis.jpg" class="img-responsive" style="width:300px; height: 300px; object-fit:cover" />
+                <img src="./Assets/JustinPerezPhoto.png" class="img-responsive" style="width:300px; height: 300px; object-fit:cover" />
                 <p id="p1">Jacques Webster II</p>
                 <p id="p2">Jacques is an excellent TA. He's so good, he could probably host a music festival and nothing bad would happen!</p>
             </div>
@@ -48,15 +48,5 @@
         <p id="p1">Becoming a TA can sharpen your technical skills and improve your teaching ability!</p>
         <button id="button1">Become a TA today!</button>
     </div>
-    <script>
-        fetch("./navbar_partial.html")
-            .then(response => {
-                return response.text()
-            })
-            .then(data => {
-                document.querySelector("header")
-                    .innerHTML = data;
-            });
-    </script>
 </body>
 </html>
