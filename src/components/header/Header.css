@@ -71,12 +71,10 @@ header
 /*===============Media Queries (Medium Devices) ===================*/
 @media screen and (max-width:1024px) 
 {
-    
     header
     {
         height: 100vh;
     }
-    
 }
 
 /*===============Small Queries (Medium Devices) ===================*/
@@ -86,5 +84,4 @@ header
     {
         height: 100vh;
     }
-  
 }

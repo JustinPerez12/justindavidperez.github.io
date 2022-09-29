@@ -94,10 +94,11 @@
         margin: 2rem auto 4rem;
     }
 
-        
+
     .about__content p
     {
         margin: 1rem 0 1.5rem;
+        text-align: center;
     }
 }
 

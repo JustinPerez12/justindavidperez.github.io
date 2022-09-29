@@ -1,0 +1,1 @@
+1. Make the moving pictures move and then show another picture behind it. Basically just have 2 pics everywhere there is already one.

@@ -34,7 +34,7 @@ const About = () => {
             <p>
               This is where I am going to write a little bit about myself. Current GPA, jobs, projects, etc...
             </p>
-            <a href='#contact' className='btn btn-primary'>Get in Contact With Me</a>
+            <a href='#contact' className='btn btn-primary '>Get in Contact With Me</a>
           </div>
       </div>
     </section>
