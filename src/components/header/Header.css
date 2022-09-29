@@ -52,10 +52,10 @@ header
     height: 35rem;
     position: absolute;
     left:calc(50% - 11rem);
-    margin-top: 4rem;
+    margin-top: 1rem;
     border-radius: 16rem 16rem 0 0;
     overflow: hidden;
-    padding: 2rem 0 0 0;
+    padding: 1rem 0 0 0;
 }
 
 /*===================Scroll Down===================*/
@@ -71,11 +71,12 @@ header
 /*===============Media Queries (Medium Devices) ===================*/
 @media screen and (max-width:1024px) 
 {
+    
     header
     {
         height: 100vh;
     }
-  
+    
 }
 
 /*===============Small Queries (Medium Devices) ===================*/
