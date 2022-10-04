@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import BiltmoreFront from '../../Assets/biltmore_front.jpg'
+import WakeSurfing from '../../Assets/wake_surfing.jpg'
 import {FaBuilding} from 'react-icons/fa'
 import {GiFullFolder} from 'react-icons/gi'
 
@@ -12,7 +13,10 @@ const About = () => {
       <div className='container about__container'>
         <div className='about__me'>
           <div className='about__me-image'>
-            <img src={BiltmoreFront} alt='Fun picture of me wakesurfing'/>
+            <img src={BiltmoreFront} alt='Picture of me at the Biltmore'/>
+          </div>
+          <div className='about__me-image2'>
+            <img src={WakeSurfing} alt='Fun picture of me wakesurfing'/>
           </div>
         </div>
         <div className='about__content'>
