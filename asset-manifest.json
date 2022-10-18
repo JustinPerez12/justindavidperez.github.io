@@ -1,21 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.04b5d2b5.css",
-    "main.js": "./static/js/main.a8265d9f.js",
+    "main.css": "./static/css/main.57937b27.css",
+    "main.js": "./static/js/main.5bcf47bc.js",
     "static/js/787.5809834d.chunk.js": "./static/js/787.5809834d.chunk.js",
     "static/media/biltmore_front.jpg": "./static/media/biltmore_front.7361d6a1aef20bc2d1ae.jpg",
-    "static/media/wake_surfing.jpg": "./static/media/wake_surfing.c9e955d3aa686a05ce22.jpg",
     "static/media/professional_photo2.png": "./static/media/professional_photo2.6d777e159ecae7f5ef9c.png",
     "static/media/Justin_D.Perez_Resume.pdf": "./static/media/Justin_D.Perez_Resume.b0d6975c1fc2731f1610.pdf",
     "static/media/TankWars.jpg": "./static/media/TankWars.c68cca61df61887fdb80.jpg",
-    "static/media/logo.svg": "./static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "./index.html",
-    "main.04b5d2b5.css.map": "./static/css/main.04b5d2b5.css.map",
-    "main.a8265d9f.js.map": "./static/js/main.a8265d9f.js.map",
+    "main.57937b27.css.map": "./static/css/main.57937b27.css.map",
+    "main.5bcf47bc.js.map": "./static/js/main.5bcf47bc.js.map",
     "787.5809834d.chunk.js.map": "./static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04b5d2b5.css",
-    "static/js/main.a8265d9f.js"
+    "static/css/main.57937b27.css",
+    "static/js/main.5bcf47bc.js"
   ]
 }
