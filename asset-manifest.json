@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "./static/css/main.5b1bc890.css",
-    "main.js": "./static/js/main.fcd2e760.js",
+    "main.css": "./static/css/main.f6fbb3ed.css",
+    "main.js": "./static/js/main.35d3f9e6.js",
     "static/js/787.5809834d.chunk.js": "./static/js/787.5809834d.chunk.js",
     "static/media/biltmore_front.jpg": "./static/media/biltmore_front.7361d6a1aef20bc2d1ae.jpg",
     "static/media/professional_photo2.png": "./static/media/professional_photo2.6d777e159ecae7f5ef9c.png",
     "static/media/JustinPerezResume.pdf": "./static/media/JustinPerezResume.c5e52fbbe20368979f1e.pdf",
     "static/media/TankWars.jpg": "./static/media/TankWars.c68cca61df61887fdb80.jpg",
+    "static/media/LifeStyleApp.png": "./static/media/LifeStyleApp.dc83bc52e502a062d15c.png",
+    "static/media/mockgooglespreadsheet.PNG": "./static/media/mockgooglespreadsheet.3c70344611d8029b26af.PNG",
     "index.html": "./index.html",
-    "main.5b1bc890.css.map": "./static/css/main.5b1bc890.css.map",
-    "main.fcd2e760.js.map": "./static/js/main.fcd2e760.js.map",
+    "main.f6fbb3ed.css.map": "./static/css/main.f6fbb3ed.css.map",
+    "main.35d3f9e6.js.map": "./static/js/main.35d3f9e6.js.map",
     "787.5809834d.chunk.js.map": "./static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b1bc890.css",
-    "static/js/main.fcd2e760.js"
+    "static/css/main.f6fbb3ed.css",
+    "static/js/main.35d3f9e6.js"
   ]
 }
