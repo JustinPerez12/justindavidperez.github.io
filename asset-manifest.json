@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.4abb3d58.css",
-    "main.js": "./static/js/main.1d2f762a.js",
+    "main.js": "./static/js/main.74aaf8c9.js",
     "static/js/787.5809834d.chunk.js": "./static/js/787.5809834d.chunk.js",
     "static/media/biltmore_front.jpg": "./static/media/biltmore_front.7361d6a1aef20bc2d1ae.jpg",
     "static/media/professional_photo2.png": "./static/media/professional_photo2.6d777e159ecae7f5ef9c.png",
@@ -9,11 +9,11 @@
     "static/media/TankWars.jpg": "./static/media/TankWars.c68cca61df61887fdb80.jpg",
     "index.html": "./index.html",
     "main.4abb3d58.css.map": "./static/css/main.4abb3d58.css.map",
-    "main.1d2f762a.js.map": "./static/js/main.1d2f762a.js.map",
+    "main.74aaf8c9.js.map": "./static/js/main.74aaf8c9.js.map",
     "787.5809834d.chunk.js.map": "./static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4abb3d58.css",
-    "static/js/main.1d2f762a.js"
+    "static/js/main.74aaf8c9.js"
   ]
 }
