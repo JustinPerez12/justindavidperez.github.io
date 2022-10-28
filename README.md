@@ -1,2 +1,2 @@
-# JustinPerez12.github.io
+# Justin Perez Personal Website
 Repository for personal website
