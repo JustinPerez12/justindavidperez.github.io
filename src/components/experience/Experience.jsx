@@ -1,108 +1,41 @@
 import React from 'react'
 import './Experience.css'
-import {BsFillBookmarkCheckFill} from 'react-icons/bs'
+import Wavetronix from '../../Assets/wavetronix.png'
 
 const Experience = () => {
-  const newLocal = 'experience_details-icon'
   return (
     <section id='experience'>
-      <h5>These are going to be the skills that I have</h5>
-      <h2>My Experience</h2>
+      <h5>My Work Experience</h5>
+      <h2>Experience</h2>
       <div className='experience__container'>
-        <div className='experience__frontend'>
-          <h3>Frontend development</h3>
-          <div className='experience__content'>
-            <article>
-            <BsFillBookmarkCheckFill className='experience__details-icon'/>
-            <div>
-              <h4>HTML</h4>
-              <small className='text-light'>Experience</small>
+        <article className='experience__item'>
+            <div className='experience__item-image'>
+              <img src={Wavetronix} alt='Wavetronix Logo' ></img>
             </div>
-            </article>
-
-            <article>
-            <BsFillBookmarkCheckFill className='experience__details-icon'/>
-            <div>
-              <h4>CSS</h4>
-              <small className='text-light'>Experience</small>
+            <h1>
+                Software Engineering Intern at Wavetronix
+            </h1>
+            <h2>
+                May 2022 - Current
+            </h2>
+            <h3>
+                <ul>
+                    <li className='list__item'>
+                        Used C# and WPF to produce a desktop app that collects and displays data produced by Wavetronix sensors placed throughout the country.
+                    </li>
+                    <li className='list__item'>
+                        Created a database using MySQL, and integrated it into the same desktop app as above. The desktop app can handle the retrieval and uploading of data to the database.
+                    </li>
+                    <li className='list__item'>
+                        Used C# and WPF to help produce a simulator for road intersections.
+                        Created a variety of tools on the frontend to help users interpret data and manage their workspace.
+                    </li>
+                </ul>
+            </h3>
+            <div className='experience__item-cta'>
+              <a href='https://www.wavetronix.com/' className='experience__item-cta btn' target='_blank' rel="noreferrer">Wavetronix Website</a>
             </div>
-            </article>
-
-            <article>
-            <BsFillBookmarkCheckFill className='experience__details-icon' />
-            <div>
-              <h4>Bootstrap</h4>
-              <small className='text-light'>Experience</small>
-            </div>
-            </article>
-
-            <article>
-            <BsFillBookmarkCheckFill className='experience__details-icon'/>
-            <div>
-              <h4>React</h4>
-              <small className='text-light'>Experience</small>
-            </div>
-            </article>
-
-            <article>
-            <BsFillBookmarkCheckFill className='experience__details-icon'/>
-            <div>
-              <h4>HTML</h4>
-              <small className='text-light'>Experience</small>
-            </div>
-            </article>
-
-            <article>
-            <BsFillBookmarkCheckFill className='experience__details-icon'/>
-            <div>
-              <h4>HTML</h4>
-              <small className='text-light'>Experience</small>
-            </div>
-            </article>
-          </div>
-        </div>
-
-        <div className='experience__backend'>
-        <h3>Backend development</h3>
-          <div className='experience__content'>
-            <article>
-            <BsFillBookmarkCheckFill className='experience__details-icon'/>
-            <h4>MySQL</h4>
-            <small className='text-light'>Experience</small>
-            </article>
-
-            <article>
-            <BsFillBookmarkCheckFill className='experience__details-icon'/>
-            <h4>Python</h4>
-            <small className='text-light'>Experience</small>
-            </article>
-
-            <article>
-            <BsFillBookmarkCheckFill className='experience__details-icon'/>
-            <h4>C#</h4>
-            <small className='text-light'>Experience</small>
-            </article>
-
-            <article>
-            <BsFillBookmarkCheckFill className='experience__details-icon'/>
-            <h4>c++</h4>
-            <small className='text-light'>Experience</small>
-            </article>
-
-            <article>
-            <BsFillBookmarkCheckFill className='experience__details-icon'/>
-            <h4>c</h4>
-            <small className='text-light'>Experience</small>
-            </article>
-
-            <article>
-            <BsFillBookmarkCheckFill className='experience__details-icon'/>
-            <h4>HTML</h4>
-            <small className='text-light'>Experience</small>
-            </article>
-          </div>
-        </div>
-
+        </article>
       </div>
     </section>
   )

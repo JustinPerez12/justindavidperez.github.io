@@ -1,83 +1,69 @@
 .experience__container
 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    padding: 0 20%;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    padding: 0 25%;
 }
 
-.experience__container > div
+
+.experience__item
 {
     background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
+    padding: 1.3rem;
     border-radius: 2rem;
-    border:1px solid transparent; 
+    border: 1px solid transparent;
+    text-align: center;
     transition: var(--transition);
+    
 }
 
-
-.experience__container > div:hover
+.experience__item:hover
 {
-    background: transparent;
     border-color: var(--color-primary-variant);
-    cursor: default;
+    background: transparent;
 }
 
-.experience__container > div h3
+.experience__item-image
 {
-    text-align: center;
-    margin-bottom: 2rem;
-    color: var(--color-primary);
+    max-width: 70%;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    padding: 5rem;
+    margin: 0 auto;
 }
 
-.experience__content
+.experience__item h1
 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    text-align: center;
-    row-gap: 2rem;
+    margin: -2rem 0 3rem;
+    font-weight: bold;
 }
 
-.experience__details
+.experience__item h2
+{
+    margin: -2rem 0 2rem;
+    font-weight: 200;
+}
+
+.experience__item h3
+{
+    margin: 1.2rem 0 2rem;
+}
+
+.experience__item-cta
 {
     display: flex;
+    margin:0 auto;
     gap: 1rem;
 }
 
-
-.experience__details-icon
+.list__item
 {
-    position: relative;
-    bottom: -2rem;
-    right: 3rem;
-    color: var(--color-primary);
+    font-size: 1.1rem;
+    list-style-type: circle;
+    list-style-position: inside;
+    margin: 2rem 0;
 }
-
-
-
-/*===============Media Queries (Medium Devices) ===================*/
-@media screen and (max-width:1024px) 
-{
-    .about__container{
-        grid-template-columns: 1fr;
-        margin-left: auto;
-        margin-right: auto;
-        gap: 0;
-    }
-
-    .about__me{
-        
-        width: 50%;
-        margin: 2rem auto 4rem;
-    }
-
-        
-    .about__content p
-    {
-        margin: 1rem 0 1.5rem;
-    }
-}
-
 
 /*===============Media Queries (Medium Devices) ===================*/
 @media screen and (max-width:1024px) 
@@ -85,6 +71,8 @@
     .experience__container
     {
         grid-template-columns: 1fr;
+        margin-left: auto;
+        margin-right: auto;
     }
     .experience__container > div
     {
@@ -102,22 +90,14 @@
     
 }
 
+
 /*===============Small Queries (Medium Devices) ===================*/
 @media screen and (max-width:600px) 
 {
-   .experience__container
-   {
-     gap: 1rem;
-   }
-
-   .experience__container > div
-   {
-        width: 100%;
-        padding: 2rem 1rem;
-   }
-
-   .experience__content
-    {
-        padding: 0;
-    }
+    .experience__container{
+        grid-template-columns:  1fr;
+        margin-left: auto;
+        margin-right: auto;
+       }
+    
 }
