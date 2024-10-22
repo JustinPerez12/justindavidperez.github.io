@@ -1,103 +1,83 @@
-.experience__container
-{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 4rem;
-    padding: 0 25%;
+.experience__container {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr;
+  gap: 4rem;
+  padding: 0 15%;
 }
 
-
-.experience__item
-{
-    background: var(--color-bg-variant);
-    padding: 1.3rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    text-align: center;
-    transition: var(--transition);
-    
+.experience__item {
+  background: var(--color-bg-variant);
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  text-align: center;
+  transition: var(--transition);
 }
 
-.experience__item:hover
-{
-    border-color: var(--color-primary-variant);
-    background: transparent;
+.experience__item:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
 }
 
-.experience__item-image
-{
-    max-width: 70%;
-    border-radius: 1.5rem;
-    overflow: hidden;
-    padding: 5rem;
-    margin: 0 auto;
+.experience__item-image {
+  max-width: 70%;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  padding: 5rem;
+  margin: 0 auto;
 }
 
-.experience__item h1
-{
-    margin: -2rem 0 3rem;
-    font-weight: bold;
+.experience__item h1 {
+  margin: -2rem 0 3rem;
+  font-weight: bold;
 }
 
-.experience__item h2
-{
-    margin: -2rem 0 2rem;
-    font-weight: 200;
+.experience__item h2 {
+  margin: -2rem 0 2rem;
+  font-weight: 200;
 }
 
-.experience__item h3
-{
-    margin: 1.2rem 0 2rem;
+.experience__item h3 {
+  margin: 1.2rem 0 2rem;
 }
 
-.experience__item-cta
-{
-    display: flex;
-    margin:0 auto;
-    gap: 1rem;
+.experience__item-cta {
+  display: flex;
+  margin: 0 auto;
+  gap: 1rem;
 }
 
-.list__item
-{
-    font-size: 1.1rem;
-    list-style-type: circle;
-    list-style-position: inside;
-    margin: 2rem 0;
+.list__item {
+  font-size: 1.1rem;
+  list-style-type: circle;
+  list-style-position: inside;
+  margin: 2rem 0;
 }
 
 /*===============Media Queries (Medium Devices) ===================*/
-@media screen and (max-width:1024px) 
-{
-    .experience__container
-    {
-        grid-template-columns: 1fr;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .experience__container > div
-    {
-        width: 80%;
-        padding: 1rem;
-        margin: 0 auto;
-    }
+@media screen and (max-width: 1024px) {
+  .experience__container {
+    grid-template-columns: 1fr;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .experience__container > div {
+    width: 80%;
+    padding: 1rem;
+    margin: 0 auto;
+  }
 
-    .experience__content
-    {
-        padding: 1rem;
-        row-gap: .5rem;
-    }
-
-    
+  .experience__content {
+    padding: 1rem;
+    row-gap: 0.5rem;
+  }
 }
 
-
 /*===============Small Queries (Medium Devices) ===================*/
-@media screen and (max-width:600px) 
-{
-    .experience__container{
-        grid-template-columns:  1fr;
-        margin-left: auto;
-        margin-right: auto;
-       }
-    
+@media screen and (max-width: 600px) {
+  .experience__container {
+    grid-template-columns: 1fr;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

@@ -32,9 +32,7 @@ const About = () => {
 
             </div>
             <p>
-              I am a senior in Computer Science at the University of Utah pursuing a BS degree. I am a well-rounded, passionate, and reliable individual with aspirations to become a full stack Software Engineer.
-              With many successful projects, and over 1 year of work experience I believe that I am qualified for many jobs nationwide. All of my current experience has come together
-              to make me well versed in many languages, architectures, and frameworks. I am excited and ready to pursue a career anywhere I go, and cannot wait to see what the future has in store.
+              I am a Software Engineer 1 at Cox Automotive. I work on the Product Security Engineering team. 
             </p>
             <a href='#contact' className='btn btn-primary'>Get in Contact With Me</a>
           </div>
