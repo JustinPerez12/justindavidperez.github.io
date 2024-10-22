@@ -62,14 +62,14 @@ const Experience = () => {
             <h3>
                 <ul>
                     <li className='list__item'>
-                        Used C# and WPF to produce a desktop app that collects and displays data produced by Wavetronix sensors placed throughout the country.
+                      Developed and maintained a C# application that simulated traffic patterns, allowing users to design intersections and optimize layouts for traffic engineers.
                     </li>
                     <li className='list__item'>
-                        Created a database using MySQL, and integrated it into the same desktop app as above. The desktop app can handle the retrieval and uploading of data to the database.
+                      Created a C# application to process traffic simulation data, generating visual representations in graph form for easier data analysis
+                      and interpretation.
                     </li>
                     <li className='list__item'>
-                        Used C# and WPF to help produce a simulator for road intersections.
-                        Created a variety of tools on the frontend to help users interpret data and manage their workspace.
+                      Contributed to improving traffic design processes by making complex simulation data more accessible and understandable to engineers.
                     </li>
                 </ul>
             </h3>
