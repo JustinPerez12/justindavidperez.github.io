@@ -45,7 +45,7 @@ const Experience = () => {
                 </ul>
             </h3>
             <div className='experience__item-cta'>
-              <a href='https://www.wavetronix.com/' className='experience__item-cta btn' target='_blank' rel="noreferrer">Wavetronix Website</a>
+              <a href='https://www.coxautoinc.com/' className='experience__item-cta btn' target='_blank' rel="noreferrer">Cox Automotive Inc Website</a>
             </div>
         </article>
 
