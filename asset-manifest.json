@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.293a5308.css",
-    "main.js": "/static/js/main.b627dfad.js",
+    "main.css": "/static/css/main.a8fd739b.css",
+    "main.js": "/static/js/main.3801a868.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/biltmore_front.jpg": "/static/media/biltmore_front.7361d6a1aef20bc2d1ae.jpg",
     "static/media/wake_surfing.jpg": "/static/media/wake_surfing.c9e955d3aa686a05ce22.jpg",
     "static/media/professional_photo2.png": "/static/media/professional_photo2.6d777e159ecae7f5ef9c.png",
-    "static/media/TankWars.jpg": "/static/media/TankWars.c68cca61df61887fdb80.jpg",
     "static/media/Cox_Automotive_Logo.jpg": "/static/media/Cox_Automotive_Logo.a8a1b79373ee07c80c20.jpg",
     "static/media/LifeStyleApp.png": "/static/media/LifeStyleApp.dc83bc52e502a062d15c.png",
     "static/media/Justin_Perez_Resume.pdf": "/static/media/Justin_Perez_Resume.c0fb761794b205907325.pdf",
+    "static/media/huddle-up-logo.png": "/static/media/huddle-up-logo.1a1d337c7b3802b6f6fd.png",
     "static/media/mockgooglespreadsheet.PNG": "/static/media/mockgooglespreadsheet.3c70344611d8029b26af.PNG",
     "index.html": "/index.html",
-    "main.293a5308.css.map": "/static/css/main.293a5308.css.map",
-    "main.b627dfad.js.map": "/static/js/main.b627dfad.js.map",
+    "main.a8fd739b.css.map": "/static/css/main.a8fd739b.css.map",
+    "main.3801a868.js.map": "/static/js/main.3801a868.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.293a5308.css",
-    "static/js/main.b627dfad.js"
+    "static/css/main.a8fd739b.css",
+    "static/js/main.3801a868.js"
   ]
 }
