@@ -24,15 +24,6 @@ const Portfolio = () => {
             </div>
         </article>
 
-        <article className='portfolio__item'>
-            <div className='portfolio__item-image '>
-              <img src={MockSpreadsheet} alt='Mock Spread Sheet'></img>
-            </div>
-            <h3>
-              Room Reserver is a personal project of mine that is used to reserve study rooms at the University of Utah Marriott Library every day. 
-              I built the web scraper using Selenium Web Driver in JavaScript and it runs daily on an Amazon EC2 instance.
-            </h3>
-        </article>
       </div>
     </section>
   )

@@ -143,6 +143,12 @@ const Skills = () => {
             <small className='text-light'>Intermediate</small>
             </article>
 
+            <article>
+            <BsFillBookmarkCheckFill className='skills__details-icon'/>
+            <h4>Azure</h4>
+            <small className='text-light'>Intermediate</small>
+            </article>
+
           </div>
         </div>
 

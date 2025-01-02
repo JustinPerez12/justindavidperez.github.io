@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import CTA from './CTA'
-import ProfessionalPhoto from '../../Assets/professional_photo2.png'
+import ProfessionalPhoto from '../../Assets/professional_photo3.png'
 import HeaderSocials from './HeaderSocials'
 
 
